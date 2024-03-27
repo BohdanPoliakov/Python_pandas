@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "setup",
+      "setup": "",
+      "run": "pip install -r setup.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "python result.py",
+      "input": "ABCD",
+      "output": "0",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "python result.py",
+      "input": "Franklin Local Board Area",
+      "output": "593655",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "python result.py",
+      "input": "Auckland",
+      "output": "0",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "python result.py",
+      "input": "Dargaville",
+      "output": "31290",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 25
+    }
+  ]
+}
